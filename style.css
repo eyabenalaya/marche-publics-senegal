@@ -1,0 +1,24 @@
+div[data-testid="metric-container"] {
+    background-color: rgba(128, 93, 215, 0.1);
+    border: 1px solid rgba(181, 89, 230, 0.1);
+    padding: 5% 5% 5% 5%;
+    border-radius: 5px;
+    color: rgb(201, 136, 227);
+    overflow-wrap: break-word;
+    
+ }
+
+ div[data-testid="stMetricValue"] > div:nth-child(1) {
+    justify-content: center;
+}
+
+div[data-testid="stMetricLabel"] > div:nth-child(1) {
+    justify-content: center;
+}
+ /* breakline for metric text         */
+ div[data-testid="metric-container"] > label[data-testid="stMetricLabel"] > div {
+    overflow-wrap: break-word;
+    white-space: break-spaces;
+    color: white;
+ }
+ 
